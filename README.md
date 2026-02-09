@@ -20,11 +20,11 @@ yum install httpd -y
 
 yum install php php-mysqlnd php-curl php-gd php-json php-zip php-mbstring -y
 
-yum systemctl restart httpd
+systemctl restart httpd
 
-yum systemctl enable httpd
+systemctl enable httpd
 
-yum install mariadb-server -y
+yum install mariadb105-server -y
 
 --------------------------------------------------------------------------------------------------------------------
 
