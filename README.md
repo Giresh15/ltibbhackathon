@@ -14,6 +14,12 @@ sudo systemctl enable apache2
 
 sudo apt-get install mysql-server -y
 
+# Setting up linux Machine
+yum install httpd -y
+yum install php php-mysqlnd php-curl php-gd php-json php-zip php-mbstring -yyum systemctl restart httpd
+yum systemctl enable httpd
+yum install mariadb-server -y
+
 --------------------------------------------------------------------------------------------------------------------
 
 # Connecting to My SQL Database
